@@ -1,0 +1,62 @@
+.text {
+  margin: 5px 10px;
+  padding: 10px 25px;
+  border: 3px solid #87CEEB;
+  border-radius: 1px;
+  font-size: 14px;
+  line-height: 15px;
+  color: black;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 11px 30px;
+  border-color: #87CEEB;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: black;
+  background: #87CEEB;
+  transition: 0.3s;
+}
+
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 323px;
+  box-shadow: 1px 1px 7px #0000002e;
+  padding: 1.5em;
+  border-radius: 5px;
+  margin: 1em;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.sent {
+	max-width: 200px;
+	align-self: end;
+	box-shadow: 1px 1px 5px #34a28859;
+	padding: 0.5em 0.7em;
+	border-radius: 5px;
+	background-color: #34a288;
+	color: white;
+	margin-bottom: 0.8em;
+}
+.sent a {
+	color: white;
+}
+html {
+  background-color: #8080800d;
+}
+.recieved {
+  max-width: 200px;
+  align-self: start;
+  box-shadow: 1px 1px 4px #3486ec;
+  padding: 0.5em 0.7em;
+  border-radius: 5px;
+  background-color: #3486ec;
+  color: white;
+}
